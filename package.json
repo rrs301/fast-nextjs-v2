@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-boilerplate-1",
+  "name": "AI Career Coach Agent",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.20.0",
+    "@inngest/agent-kit": "^0.9.0",
     "@neondatabase/serverless": "^0.10.4",
     "@radix-ui/react-dialog": "^1.1.5",
     "@radix-ui/react-popover": "^1.1.5",
@@ -21,10 +22,12 @@
     "clsx": "^2.1.1",
     "dotenv": "^16.4.7",
     "drizzle-orm": "^0.39.1",
+    "inngest": "^3.40.1",
     "lucide-react": "^0.474.0",
     "next": "15.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-markdown": "^8.0.6",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7"
   },

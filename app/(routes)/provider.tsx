@@ -17,12 +17,12 @@ function DashboardProvider({
             <AppSidebar />
             <main className='w-full'>
                 <AppHeader />
-                {/* <SidebarTrigger /> */}
+                <SidebarTrigger />
                 <div className='p-10'>{children}</div>
             </main>
         </SidebarProvider>
 
     )
 }
-
 export default DashboardProvider
+
