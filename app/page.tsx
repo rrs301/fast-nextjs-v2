@@ -13,8 +13,9 @@ export default function Home() {
       <header className="flex  flex-wrap sm:justify-start  sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-neutral-800 dark:border-neutral-700">
         <nav className="relative  p-4 max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
           <div className="flex items-center justify-between">
-            <div>
-              <Image src={'/logo.svg'} alt="logo" width={150} height={150} />
+            <div className="flex gap-2 items-center">
+              <Image src={'/logo2.png'} alt="logo" width={150} height={150} className="h-10 w-10" />
+              <h2 className="font-medium text-2xl">WebTrack</h2>
             </div>
           </div>
           <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
@@ -53,15 +54,18 @@ export default function Home() {
 
           <div className="mt-5 max-w-2xl text-center mx-auto">
             <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
-              Build Something
-              <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"> With NextJs</span>
+              Know Your Visitors,
+
+
+              <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"> Grow Your Business</span>
             </h1>
           </div>
 
 
           <div className="mt-5 max-w-3xl text-center mx-auto">
             <p className="text-lg text-gray-600 dark:text-neutral-400">
-              Revolutionize your content creation with our AI-powered app, delivering engaging and high-quality apps in seconds.</p>
+              Get real-time insights into your website traffic. Make smarter decisions with actionable data.
+            </p>
           </div>
 
 
